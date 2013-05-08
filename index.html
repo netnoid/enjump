@@ -1,51 +1,32 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="ja">
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="EnJump : " />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>EnJump</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <title>action01</title>
   </head>
 
-  <body>
+  <body id="GameBody" bgcolor="#eeeeee">
+    <center>
+      <canvas id="GameCanvas" width="480" height="720"></canvas>
+    </center>
+    <!-- appname.js --><script src="action01.js"></script>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/netnoid/enjump">View on GitHub</a>
 
-          <h1 id="project_title">EnJump</h1>
-          <h2 id="project_tagline"></h2>
+<script type="text/javascript">
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/netnoid/enjump/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/netnoid/enjump/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40726410-1']);
+  _gaq.push(['_trackPageview']);
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-      </section>
-    </div>
+</script>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">EnJump maintained by <a href="https://github.com/netnoid">netnoid</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
 
   </body>
 </html>
