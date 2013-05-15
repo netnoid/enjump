@@ -1,4 +1,4 @@
 EnJump
 ======
 
-<http://netnoid.github.io/enjump/>
+<http://netnoid.weebly.com/>
